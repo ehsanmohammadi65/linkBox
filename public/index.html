@@ -1,17 +1,57 @@
 <!DOCTYPE html>
 <html lang="">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <style>
+      .copyright a {
+        color: hotpink;
+        text-transform: capitalize;
+      }
+      .footer {
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+        padding: 1rem;
+        margin: 0rem auto;
+        max-width: 140rem;
+        margin-bottom: 0.5rem;
+        justify-content: center;
+        align-items: center;
+      }
+      .copyright {
+      }
+      .copyright {
+        margin-top: 80%;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
-  <body>
+  <body dir="rtl">
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
+  <footer>
+    <div class="copyright">
+      <div class="copyright-text">
+        <p>
+          برنامه نویس
+          <a href="https://xpeveloper.ir/">احسان محمدی</a>
+        </p>
+      </div>
+    </div>
+  </footer>
 </html>
