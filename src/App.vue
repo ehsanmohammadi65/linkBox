@@ -349,6 +349,9 @@ export default {
 </script>
 
 <style scoped>
+.title{
+  margin-top: 5%;
+}
 basebanner{
 margin-top: 10%;
 }
