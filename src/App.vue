@@ -26,7 +26,7 @@
               ><a
                 :href="link.link"
                 target="_blank"
-                :style="'color:' + Palette[index]"
+                :style="'font-weight:bold;'+'color:' + Palette[index]"
                 >{{ link.name }}</a
               ></base-card
             >
@@ -329,7 +329,7 @@ export default {
             {
               id: "40",
               name: "ثبت نسخ الکترونیک خدمات درمانی",
-            link:"https://eservices.ihio.gov.ir/erx/",
+            link:"https://eservices.ihio.gov.ir/sso/?sourceApp=https://eservices.ihio.gov.ir/ihioerx/",
               cat: "5",
               visibility: "1",
             },

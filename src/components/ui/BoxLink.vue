@@ -26,7 +26,7 @@
         <li>
           <a
             class="link-box__link"
-            href="https:\\eservices.ihio.gov.ir\erx\"
+            href="https://eservices.ihio.gov.ir/sso/?sourceApp=https://eservices.ihio.gov.ir/ihioerx/"
             title="Quick Link"
             target="_blank"
           
